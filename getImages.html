@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Instagram Reddit Posts</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/getImages.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark mb-3">
+      <a class="navbar-brand" href="#"><img src="images/logo.jpg" width="35" height="35" alt="" class="d-inline-block align-center mr-2 rounded-circle" loading="lazy">RedditSpy</a>
+    </nav>
+    <div class="container">
+      <div style="font-family: Cairo"></div>
+      <div class="d-flex align-items-center mb-3" id="loadingBar">
+        <strong>Creating posts...</strong>
+        <div class="spinner-border ml-auto text-success" role="status" aria-hidden="true"></div>
+      </div>
+      <div id="Qcard" class="card mb-3" style="display: none">
+        <div class="card-body text-center">
+          <h5 class="card-title">
+          Question Post</h6>
+          <img src="" class="img-fluid mb-1" alt="" id="Qp">
+        </div>
+      </div>
+      <div id="Acard" class="card mb-4" style="display: none">
+        <div class="card-body text-center">
+          <h5 class="card-title">Answer Posts</h5>
+          <h6 class="card-subtitle mb-1 text-muted">Answer 1</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A1p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 2</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A2p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 3</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A3p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 4</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A4p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 5</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A5p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 6</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A6p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 7</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A7p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 8</h6>
+          <img src="" class="img-fluid mb-5" alt="" id="A8p">
+          <h6 class="card-subtitle mb-1 text-muted">Answer 9</h6>
+          <img src="" class="img-fluid mb-4" alt="" id="A9p">
+        </div>
+      </div>
+      <canvas width="1080" height="1080" id="Qc"></canvas>
+      <canvas width="1080" height="1080" id="A1c"></canvas>
+      <canvas width="1080" height="1080" id="A2c"></canvas>
+      <canvas width="1080" height="1080" id="A3c"></canvas>
+      <canvas width="1080" height="1080" id="A4c"></canvas>
+      <canvas width="1080" height="1080" id="A5c"></canvas>
+      <canvas width="1080" height="1080" id="A6c"></canvas>
+      <canvas width="1080" height="1080" id="A7c"></canvas>
+      <canvas width="1080" height="1080" id="A8c"></canvas>
+      <canvas width="1080" height="1080" id="A9c"></canvas>
+    </div>
+    <footer class="footer mt-auto py-3 bg-dark footerFix" id="foot">
+      <div class="container">
+        <span class="text-muted">&copy  2020 RedditSpy</span>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/getImages.js"></script>
+  </body>
+</html>
