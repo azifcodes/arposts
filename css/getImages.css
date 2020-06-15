@@ -1,0 +1,13 @@
+canvas {
+    display: none;
+}
+
+footer {
+    text-align: center;
+}
+
+.footerFix {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
